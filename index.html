@@ -21,69 +21,79 @@
 
                         <!--Début Barre de navigation-->
 
-                        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+                        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top" aria-label="Main navigation">
 
-                            <div class="container-fluid">
+                          <div class="container-fluid">
 
-                                <a class="navbar-brand" href="#home"><i class="bi bi-house-door-fill" role="img" aria-label="Accueil"></i></a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-label="Toggle navigation" aria-controls="navbarOffcanvasLg">
+                                  <span class="navbar-toggler-icon"></span>
+                              </button>
 
-                                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+                              <a class="navbar-brand" href="#home">
+                                  <img class="imgHome" src="assets/img/emoji_Adeline_Izri.png" width="40" alt="Accueil">
+                                  Adeline Izri
+                              </a>
 
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-                                    
-                                    <div class="offcanvas-body">
+                              <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                                  
+                                  <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                  </div>
 
-                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                  <div class="offcanvas-body">
 
-                                            <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#home">Accueil</a>
-                                            </li>
+                                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
-                                            <li class="nav-item">
-                                            <a class="nav-link" href="#aboutMe">A Propos</a>
-                                            </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link active" aria-current="page" href="#home">
+                                                  Accueil
+                                              </a>
+                                          </li>
 
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#skills" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Compétences
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                </ul>
-                                            </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#aboutMe">
+                                                  A Propos
+                                              </a>
+                                          </li>
 
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#career" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Parcours
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                </ul>
-                                            </li>
+                                          <li class="nav-item dropdown">
+                                              <a class="nav-link dropdown-toggle" href="#skills" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  Compétences
+                                              </a>
+                                              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                              </ul>
+                                          </li>
 
-                                            <li class="nav-item">
-                                            <a class="nav-link" href="#production">Réalisations</a>
-                                            </li>
+                                          <li class="nav-item dropdown">
+                                              <a class="nav-link dropdown-toggle" href="#career" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  Parcours
+                                              </a>
+                                              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                              </ul>
+                                          </li>
 
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#contact">Contact</a>
-                                                </li>
-                                            
-                                        </ul>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#production">Réalisations</a>
+                                          </li>
 
-                                
-                                
-                                    </div>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#contact">Contact</a>
+                                          </li>
+                                          
+                                      </ul>
 
-                                </div>
-                            
-                            </div>
+                                  </div>
 
-                        </nav>
+                              </div>
+                          
+                          </div>
+
+                      </nav>
 
                         <!--Fin Barre de navigation-->
     
