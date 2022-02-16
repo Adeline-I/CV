@@ -1,12 +1,222 @@
 {
     "career": [
         {
-            "id":"car001"
+            "id":"car001",
+            "start-date":"07/2018",
+            "end-date":"08/2021",
+            "companie":"NEW YORKER",
+            "place":"Saint-Nazaire / Amiens",
+            "job":"Conseillère de vente"
+        },
+        {
+            "id":"car002",
+            "start-date":"11/2017",
+            "end-date":"12/2017",
+            "companie":"BOULANGER",
+            "place":"Amiens",
+            "job":"Conseillère Services Clients"
+        },
+        {
+            "id":"car003",
+            "start-date":"09/2017",
+            "end-date":"11/2017",
+            "companie":"CHAUSSEA",
+            "place":"Amiens",
+            "job":"Première Vendeuse"
+        },
+        {
+            "id":"car004",
+            "start-date":"02/2017",
+            "end-date":"05/2017",
+            "companie":"CPAM",
+            "place":"Albert",
+            "job":"Technicienne Prestations en Espèces"
+        },
+        {
+            "id":"car005",
+            "start-date":"05/2016",
+            "end-date":"09/2016",
+            "companie":"DISTRI CENTER",
+            "place":"Albert",
+            "job":"Conseillère de Vente"
+        },
+        {
+            "id":"car006",
+            "start-date":"03/2016",
+            "end-date":"04/2016",
+            "companie":"INTERSPORT",
+            "place":"Albert",
+            "job":"Conseillère de Vente"
+        },
+        {
+            "id":"car007",
+            "start-date":"07/2015",
+            "end-date":"09/2015",
+            "companie":"CONFORAMA",
+            "place":"Amiens",
+            "job":"Conseillère de Vente"
+        },
+        {
+            "id":"car008",
+            "start-date":"06/2015",
+            "end-date":"07/2015",
+            "companie":"ALICE DÉLICE",
+            "place":"Amiens",
+            "job":"Conseillère de Vente"
+        },
+        {
+            "id":"car009",
+            "start-date":"08/2014",
+            "end-date":"08/2014",
+            "companie":"MAIRIE D’ALBERT / COMMUNAUTÉ DE COMMUNE DU PAYS DU COQUELICOT",
+            "place":"Albert",
+            "job":"Comptable"
+        },
+        {
+            "id":"car010",
+            "start-date":"07/2012",
+            "end-date":"07/2012",
+            "companie":"MAIRIE D’ALBERT",
+            "place":"Albert",
+            "job":"Comptable"
         }
+    ],
+    "education": [
+        {
+            "id":"edu001",
+            "date":"2022",
+            "degree":"FORMATION DÉVELOPPEUR WEB ET WEB MOBILE",
+            "grade":"Bac+2",
+            "place":"La Manu, Amiens"
+        },
+        {
+            "id":"edu002",
+            "date":"2016",
+            "degree":"LICENCE PROFESSIONNELLE ENTREPRENARIAT ET MANAGEMENT DES PME PMI",
+            "grade":"Bac+3",
+            "place":"IUT, Amiens"
+        },
+        {
+            "id":"edu003",
+            "date":"2015",
+            "degree":"DUT TECHNIQUES DE COMMERCIALISATION",
+            "grade":"Bac+2",
+            "place":"IUT, Amiens"
+        },
+        {
+            "id":"edu001",
+            "date":"2013",
+            "degree":"DIPLÔME DE COMPTABILITÉ ET DE GESTION",
+            "grade":"Bac+3, niveau comptable",
+            "place":" Lycée Edouard Gand, Amiens"
+        }
+
     ],
     "skills": [
         {
-            "id":"ski001"
+            "id":"ski001",
+            "part":"Front-End",
+            "type":"Langage",
+            "name":"HTML5",
+            "grade":""
+        },
+        {
+            "id":"ski002",
+            "part":"Front-End",
+            "type":"Langage",
+            "name":"CSS3",
+            "grade":""
+        },
+        {
+            "id":"ski003",
+            "part":"Front-End",
+            "type":"Langage",
+            "name":"JavaScript",
+            "grade":""
+        },
+        {
+            "id":"ski004",
+            "part":"Front-End",
+            "type":"Framework",
+            "name":"Bootstrap",
+            "grade":""
+        },
+        {
+            "id":"ski005",
+            "part":"Front-End",
+            "type":"Outil de design d'UI/UX / prototypage",
+            "name":"Adobe XD",
+            "grade":""
+        },
+        {
+            "id":"ski006",
+            "part":"Back-End",
+            "type":"Langage",
+            "name":"PHP",
+            "grade":""
+        },
+        {
+            "id":"ski007",
+            "part":"Back-End",
+            "type":"Base de données",
+            "name":"MySQL",
+            "grade":""
+        },
+        {
+            "id":"ski008",
+            "part":"Front-End / Back-End",
+            "type":"CMS",
+            "name":"WordPress",
+            "grade":""
+        },
+        {
+            "id":"ski009",
+            "part":"Front-End",
+            "type":"Format de données",
+            "name":"JSON",
+            "grade":""
+        },
+        {
+            "id":"ski010",
+            "part":"Front-End",
+            "type":"Techniques de référencement naturel",
+            "name":"SEO",
+            "grade":""
+        },
+        {
+            "id":"ski011",
+            "part":"Front-End / Back-End",
+            "type":"Outil de versioning",
+            "name":"Git",
+            "grade":""
+        },
+        {
+            "id":"ski012",
+            "part":"Front-End / Back-End",
+            "type":"Hébergeur de code",
+            "name":"GitHub",
+            "grade":""
+        },
+        {
+            "id":"ski013",
+            "part":"Back-End",
+            "type":"Environnement de développement local",
+            "name":"Laragon",
+            "grade":""
+        },
+        {
+            "id":"ski014",
+            "part":"Back-End",
+            "type":"Serveur HTTP",
+            "name":"Apache",
+            "grade":""
+        },
+        {
+            "id":"ski015",
+            "part":"Front-End / Back-End",
+            "type":"IDE",
+            "name":"Visual Studio Code",
+            "grade":""
         }
     ]
 }
