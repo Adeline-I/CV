@@ -152,7 +152,7 @@
             "id":"ski006",
             "part":"Back-End",
             "type":"Langage",
-            "name":"PHP",
+            "name":"PHP7",
             "grade":""
         },
         {
@@ -216,6 +216,27 @@
             "part":"Front-End / Back-End",
             "type":"IDE",
             "name":"Visual Studio Code",
+            "grade":""
+        },
+        {
+            "id":"ski015",
+            "part":"Front-End / Back-End",
+            "type":"Thème builder",
+            "name":"Divi",
+            "grade":""
+        },
+        {
+            "id":"ski016",
+            "part":"Front-End",
+            "type":"",
+            "name":"Maquettage",
+            "grade":""
+        },
+        {
+            "id":"ski017",
+            "part":"Front-End",
+            "type":"",
+            "name":"Prototypage",
             "grade":""
         }
     ]
