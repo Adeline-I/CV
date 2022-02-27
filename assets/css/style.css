@@ -3,18 +3,78 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
-
+.row {
+    margin: 0;
+}
+.navbar, .footer, .btn {
+    background-color: #E8E0D5;
+}
 .card {
     border: 0.2rem solid #E8E0D5;
     border-radius: 0.5rem;
+    z-index: -1;
+}
+/*Début Header*/
+header {
+    background-image: url(../img/background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgShadow {
+    background-color: white;
+    opacity: 0.7;
 }
 
+/*Début Barre de navigation*/
+header .navbar-dark .navbar-nav .nav-link {
+    color: #7C5848;
+    font-weight: bold;
+} 
+header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #9E8777;
+}
+/*Fin Barre de navigation*/
+
+/*Début Header*/
+
+/*Début Main*/
+.revealLeft {
+    opacity: 0;
+    transform: translateX(-150px);
+}
+.revealRight {
+    opacity: 0;
+    transform: translateX(150px);
+}
+.revealVisible {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 1s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
+}
+
+/*Début Page Accueil*/
 .home .nameHome {
     font-family: 'Licorice', cursive;
     font-weight: bold;
 }
+/*Fin Page Accueil*/
 
-.navbar, .footer, .btn {
-    background-color: #E8E0D5;
+/*Fin Main*/
+
+@media (prefers-reduced-motion: reduce) {
+    .revealLeft {
+        opacity: 1!important;
+        transform: translateX(0px)!important;
+    }
+    .revealRight {
+        opacity: 1!important;
+        transform: translateX(0px)!important;
+    }
+    .revealVisible {
+        transition: 0s!important;
+    }
 }
