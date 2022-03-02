@@ -4,6 +4,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    background-color: #EDEBE8;
 }
 .row {
     margin: 0;
@@ -12,10 +13,11 @@ body {
     background-color: #E8E0D5;
 }
 .card {
-    border: 0.2rem solid #E8E0D5;
+    border: none;
     border-radius: 0.5rem;
     z-index: -1;
 }
+
 /*Début Header*/
 header {
     background-image: url(../img/background.jpg);
@@ -30,18 +32,28 @@ header {
 }
 
 /*Début Barre de navigation*/
-header .navbar-dark .navbar-nav .nav-link {
+header .navbar-light .navbar-nav .nav-link, header .offcanvas-title {
     color: #7C5848;
     font-weight: bold;
 } 
-header .navbar-dark .navbar-nav .nav-link:hover {
+header .navbar-light .navbar-nav .nav-link:hover {
     color: #9E8777;
 }
+.navbar-light .navbar-toggler {
+    border-color: #7C5848;
+}
+
 /*Fin Barre de navigation*/
 
 /*Début Header*/
 
 /*Début Main*/
+.partTitle {
+    font-weight: bold;
+    color: #7C5848;
+}
+
+/*Début Animation*/
 .revealLeft {
     opacity: 0;
     transform: translateX(-150px);
@@ -55,13 +67,22 @@ header .navbar-dark .navbar-nav .nav-link:hover {
     transform: translateX(0px);
     transition: 1s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
 }
+/*Fin Animation*/
 
 /*Début Page Accueil*/
 .home .nameHome {
     font-family: 'Licorice', cursive;
     font-weight: bold;
 }
+
 /*Fin Page Accueil*/
+
+/*Début Page Compétences*/
+.skillsBody {
+    text-align: start;
+}
+
+/*Fin Page Compétences*/
 
 /*Fin Main*/
 
