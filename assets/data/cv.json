@@ -1,5 +1,5 @@
 {
-    "career": [
+    "experience": [
         {
             "id":"car001",
             "start-date":"07/2018",
@@ -118,32 +118,32 @@
             "part":"Front-End",
             "type":"Langage",
             "name":"HTML5",
-            "grade":""
+            "grade":"2.5"
         },
         {
             "id":"ski002",
             "part":"Front-End",
             "type":"Langage",
             "name":"CSS3",
-            "grade":""
+            "grade":"2"
         },
         {
             "id":"ski003",
             "part":"Front-End",
             "type":"Langage",
             "name":"JavaScript",
-            "grade":""
+            "grade":"1.5"
         },
         {
             "id":"ski004",
             "part":"Front-End",
             "type":"Framework",
             "name":"Bootstrap",
-            "grade":""
+            "grade":"3"
         },
         {
             "id":"ski005",
-            "part":"Front-End",
+            "part":"Web design",
             "type":"Outil de design d'UI/UX / prototypage",
             "name":"Adobe XD",
             "grade":""
@@ -164,7 +164,7 @@
         },
         {
             "id":"ski008",
-            "part":"Front-End / Back-End",
+            "part":"CMS",
             "type":"CMS",
             "name":"WordPress",
             "grade":""
@@ -174,67 +174,67 @@
             "part":"Front-End",
             "type":"Format de données",
             "name":"JSON",
-            "grade":""
+            "grade":"2"
         },
         {
             "id":"ski010",
             "part":"Front-End",
             "type":"Techniques de référencement naturel",
             "name":"SEO",
-            "grade":""
+            "grade":"1"
         },
         {
             "id":"ski011",
-            "part":"Front-End / Back-End",
+            "part":"Environnement de travail",
             "type":"Outil de versioning",
             "name":"Git",
             "grade":""
         },
         {
             "id":"ski012",
-            "part":"Front-End / Back-End",
+            "part":"Environnement de travail",
             "type":"Hébergeur de code",
             "name":"GitHub",
             "grade":""
         },
         {
             "id":"ski013",
-            "part":"Back-End",
+            "part":"Environnement de travail",
             "type":"Environnement de développement local",
             "name":"Laragon",
             "grade":""
         },
         {
             "id":"ski014",
-            "part":"Back-End",
+            "part":"Environnement de travail",
             "type":"Serveur HTTP",
             "name":"Apache",
             "grade":""
         },
         {
             "id":"ski015",
-            "part":"Front-End / Back-End",
+            "part":"Environnement de travail",
             "type":"IDE",
             "name":"Visual Studio Code",
             "grade":""
         },
         {
             "id":"ski015",
-            "part":"Front-End / Back-End",
+            "part":"CMS",
             "type":"Thème builder",
             "name":"Divi",
             "grade":""
         },
         {
             "id":"ski016",
-            "part":"Front-End",
+            "part":"Web design",
             "type":"",
             "name":"Maquettage",
             "grade":""
         },
         {
             "id":"ski017",
-            "part":"Front-End",
+            "part":"Web design",
             "type":"",
             "name":"Prototypage",
             "grade":""
