@@ -14,8 +14,6 @@ body {
 }
 .card {
     border: none;
-    border-radius: 0.5rem;
-    z-index: -1;
 }
 
 /*Début Header*/
@@ -48,7 +46,12 @@ header .navbar-light .navbar-nav .nav-link:hover {
 /*Début Header*/
 
 /*Début Main*/
-.partTitle {
+main .card {
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 2px rgba(158, 135, 119, 0.5);
+    z-index: -1;
+}
+.partTitle, .partUnderTitle {
     font-weight: bold;
     color: #7C5848;
 }
