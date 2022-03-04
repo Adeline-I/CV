@@ -55,20 +55,26 @@ main .card {
     font-weight: bold;
     color: #7C5848;
 }
+.nameElement {
+    font-weight: bold;
+}
+.starIcon {
+    color: #7C5848;
+}
 
 /*Début Animation*/
 .revealLeft {
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(-300px);
 }
 .revealRight {
     opacity: 0;
-    transform: translateX(150px);
+    transform: translateX(300px);
 }
 .revealVisible {
     opacity: 1;
     transform: translateX(0px);
-    transition: 1s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
+    transition: 2s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
 }
 /*Fin Animation*/
 

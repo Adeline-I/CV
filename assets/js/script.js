@@ -2,67 +2,67 @@ function starGrade(grade) {
     let page;
     if (grade == '1') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '1.5') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-half"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-half"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '2') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '2.5') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-half"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-half"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '3') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '3.5') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-half"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-half"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '4') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '4.5') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-half"></i>
-        <i class="bi bi-star"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-half"></i>
+        <i class="starIcon bi-star"></i>`;
     } else if (grade == '5') {
         page = `
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>`;
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>
+        <i class="starIcon bi-star-fill"></i>`;
     };
     return page;
 }
@@ -105,7 +105,7 @@ fetch('./assets/data/cv.json')
             frontEndSkillsBody.innerHTML += `
             <div class="col-12 col-lg-6 ps-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-6 ps-5">
+                    <div class="col-12 col-lg-6 ps-5 nameElement">
                         <p>${element.name}</p>
                     </div>
                     <div class="col-12 col-lg-6 ps-5">
