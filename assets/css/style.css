@@ -51,11 +51,11 @@ main .card {
     box-shadow: 2px 2px 2px 2px rgba(158, 135, 119, 0.5);
     z-index: -1;
 }
-.partTitle, .partUnderTitle {
+.partTitle, .partUnderTitle, .dateElement {
     font-weight: bold;
     color: #7C5848;
 }
-.nameElement {
+.nameElement, .degreeElement {
     font-weight: bold;
 }
 .starIcon {
