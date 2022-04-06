@@ -137,6 +137,11 @@ fetch('./assets/data/cv.json')
                             ${newStarRating}
                         </div>
                     </div>
+                    <div class="col-12 col-lg-6 ps-5">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}">
+                        </div>
+                    </div>
                 </div>
             </div>`;
         };

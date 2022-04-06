@@ -118,126 +118,144 @@
             "part":"Front-End",
             "type":"Langage",
             "name":"HTML5",
-            "grade":"2.5"
+            "grade":"2.5",
+            "image":"https://img.icons8.com/color/96/000000/html-5--v1.png"
         },
         {
             "id":"ski002",
             "part":"Front-End",
             "type":"Langage",
             "name":"CSS3",
-            "grade":"2"
+            "grade":"2",
+            "image":"https://img.icons8.com/color/96/000000/css3.png"
         },
         {
             "id":"ski003",
             "part":"Front-End",
             "type":"Langage",
             "name":"JavaScript",
-            "grade":"1.5"
+            "grade":"1.5",
+            "image":"https://img.icons8.com/color/96/000000/javascript--v1.png"
         },
         {
             "id":"ski004",
             "part":"Front-End",
             "type":"Framework",
             "name":"Bootstrap",
-            "grade":"3"
+            "grade":"3",
+            "image":"https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-bootstrap-a-free-and-open-source-css-framework-logo-color-tal-revivo.png"
         },
         {
             "id":"ski005",
             "part":"Web design",
             "type":"Outil de design d'UI/UX / prototypage",
             "name":"Adobe XD",
-            "grade":""
+            "grade":"",
+            "image":"/assets/img/Adobe_Xd.png"
         },
         {
             "id":"ski006",
             "part":"Back-End",
             "type":"Langage",
             "name":"PHP7",
-            "grade":""
+            "grade":"",
+            "image":"https://img.icons8.com/officel/80/000000/php-logo.png"
         },
         {
             "id":"ski007",
             "part":"Back-End",
             "type":"Base de données",
             "name":"MySQL",
-            "grade":""
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/000000/mysql-logo.png"
         },
         {
             "id":"ski008",
             "part":"CMS",
             "type":"CMS",
             "name":"WordPress",
-            "grade":""
+            "grade":"",
+            "image":"https://img.icons8.com/color/48/000000/wordpress.png"
         },
         {
             "id":"ski009",
             "part":"Front-End",
             "type":"Format de données",
             "name":"JSON",
-            "grade":"2"
+            "grade":"2",
+            "image":"https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-json-javascript-object-notation-is-a-lightweight-data-interchange-format-logo-color-tal-revivo.png"
         },
         {
             "id":"ski010",
             "part":"Front-End",
             "type":"Techniques de référencement naturel",
             "name":"SEO",
-            "grade":"1"
+            "grade":"1",
+            "image":"/assets/img/SEO.png"
         },
         {
             "id":"ski011",
             "part":"Environnement de travail",
             "type":"Outil de versioning",
             "name":"Git",
-            "grade":""
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/000000/git.png"
         },
         {
             "id":"ski012",
             "part":"Environnement de travail",
             "type":"Hébergeur de code",
             "name":"GitHub",
-            "grade":""
+            "grade":"",
+            "image":"https://img.icons8.com/ios-glyphs/90/000000/github.png"
         },
         {
             "id":"ski013",
             "part":"Environnement de travail",
             "type":"Environnement de développement local",
             "name":"Laragon",
-            "grade":""
+            "grade":"",
+            "image":"https://img.icons8.com/officel/80/000000/elephant.png"
         },
         {
             "id":"ski014",
             "part":"Environnement de travail",
             "type":"Serveur HTTP",
             "name":"Apache",
-            "grade":""
+            "grade":"",
+            "image":""
         },
         {
             "id":"ski015",
             "part":"Environnement de travail",
             "type":"IDE",
             "name":"Visual Studio Code",
-            "grade":""
+            "grade":"",
+            "image":""
         },
         {
             "id":"ski015",
             "part":"CMS",
             "type":"Thème builder",
             "name":"Divi",
-            "grade":""
+            "grade":"",
+            "image":""
         },
         {
             "id":"ski016",
             "part":"Web design",
             "type":"",
             "name":"Maquettage",
-            "grade":""
+            "grade":"",
+            "image":""
         },
         {
             "id":"ski017",
             "part":"Web design",
             "type":"",
             "name":"Prototypage",
-            "grade":""
+            "grade":"",
+            "image":""
         }
     ]
 }
