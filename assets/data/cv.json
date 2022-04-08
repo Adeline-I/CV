@@ -159,7 +159,7 @@
             "type":"Langage",
             "name":"PHP7",
             "grade":"",
-            "image":"https://img.icons8.com/officel/80/000000/php-logo.png"
+            "image":"https://img.icons8.com/officel/96/000000/php-logo.png"
         },
         {
             "id":"ski007",
@@ -175,7 +175,7 @@
             "type":"CMS",
             "name":"WordPress",
             "grade":"",
-            "image":"https://img.icons8.com/color/48/000000/wordpress.png"
+            "image":"https://img.icons8.com/color/96/000000/wordpress.png"
         },
         {
             "id":"ski009",
@@ -207,7 +207,7 @@
             "type":"Hébergeur de code",
             "name":"GitHub",
             "grade":"",
-            "image":"https://img.icons8.com/ios-glyphs/90/000000/github.png"
+            "image":"https://img.icons8.com/ios-glyphs/96/000000/github.png"
         },
         {
             "id":"ski013",
@@ -215,7 +215,7 @@
             "type":"Environnement de développement local",
             "name":"Laragon",
             "grade":"",
-            "image":"https://img.icons8.com/officel/80/000000/elephant.png"
+            "image":"https://img.icons8.com/officel/96/000000/elephant.png"
         },
         {
             "id":"ski014",
@@ -231,13 +231,21 @@
             "type":"IDE",
             "name":"Visual Studio Code",
             "grade":"",
-            "image":""
+            "image":"https://img.icons8.com/color/96/000000/visual-studio-code-2019.png"
         },
         {
             "id":"ski015",
             "part":"CMS",
             "type":"Thème builder",
             "name":"Divi",
+            "grade":"",
+            "image":""
+        },
+        {
+            "id":"ski015",
+            "part":"CMS",
+            "type":"Thème builder",
+            "name":"Création de thème",
             "grade":"",
             "image":""
         },

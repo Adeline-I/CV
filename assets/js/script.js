@@ -1,71 +1,71 @@
-function starGrade(grade) {
-    let page;
-    if (grade == '1') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '1.5') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-half"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '2') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '2.5') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-half"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '3') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '3.5') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-half"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '4') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '4.5') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-half"></i>
-        <i class="starIcon bi-star"></i>`;
-    } else if (grade == '5') {
-        page = `
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>
-        <i class="starIcon bi-star-fill"></i>`;
-    };
-    return page;
-}
+// function starGrade(grade) {
+//     let page;
+//     if (grade == '1') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '1.5') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-half"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '2') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '2.5') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-half"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '3') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '3.5') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-half"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '4') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '4.5') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-half"></i>
+//         <i class="starIcon bi-star"></i>`;
+//     } else if (grade == '5') {
+//         page = `
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>
+//         <i class="starIcon bi-star-fill"></i>`;
+//     };
+//     return page;
+// }
 
 fetch('./assets/data/cv.json')
 .then((response) => {
@@ -125,22 +125,17 @@ fetch('./assets/data/cv.json')
     });
     skills.forEach((element) => {
         if (element.part == 'Front-End') {
-            let newStarRating = starGrade(element.grade);
+            // let newStarRating = starGrade(element.grade);
             frontEndSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-12 col-lg-4 ps-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-6 ps-5 nameElement">
-                        <p>${element.name}</p>
-                    </div>
-                    <div class="col-12 col-lg-6 ps-5">
-                        <div class="starRating">
-                            ${newStarRating}
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 ps-5">
+                    <div class="col-12 d-flex justify-content-center ps-5">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}">
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                        <p>${element.name}</p>
                     </div>
                 </div>
             </div>`;
@@ -148,17 +143,17 @@ fetch('./assets/data/cv.json')
     });
     skills.forEach((element) => {
         if (element.part == 'Back-End') {
-            let newStarRating = starGrade(element.grade);
+            // let newStarRating = starGrade(element.grade);
             backEndSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-12 col-lg-4 ps-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-6 ps-5 nameElement">
-                        <p>${element.name}</p>
-                    </div>
-                    <div class="col-12 col-lg-6 ps-5">
-                        <div class="starRating">
-                            ${newStarRating}
+                    <div class="col-12 d-flex justify-content-center ps-5">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}">
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                        <p>${element.name}</p>
                     </div>
                 </div>
             </div>`;
@@ -166,17 +161,17 @@ fetch('./assets/data/cv.json')
     });
     skills.forEach((element) => {
         if (element.part == 'CMS') {
-            let newStarRating = starGrade(element.grade);
+            // let newStarRating = starGrade(element.grade);
             cmsSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-12 col-lg-4 ps-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-6 ps-5 nameElement">
-                        <p>${element.name}</p>
-                    </div>
-                    <div class="col-12 col-lg-6 ps-5">
-                        <div class="starRating">
-                            ${newStarRating}
+                    <div class="col-12 d-flex justify-content-center ps-5">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}">
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                        <p>${element.name}</p>
                     </div>
                 </div>
             </div>`;
@@ -184,17 +179,17 @@ fetch('./assets/data/cv.json')
     });
     skills.forEach((element) => {
         if (element.part == 'Web design') {
-            let newStarRating = starGrade(element.grade);
+            // let newStarRating = starGrade(element.grade);
             webDesignSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-12 col-lg-4 ps-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-6 ps-5 nameElement">
-                        <p>${element.name}</p>
-                    </div>
-                    <div class="col-12 col-lg-6 ps-5">
-                        <div class="starRating">
-                            ${newStarRating}
+                    <div class="col-12 d-flex justify-content-center ps-5">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}">
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                        <p>${element.name}</p>
                     </div>
                 </div>
             </div>`;
@@ -202,17 +197,17 @@ fetch('./assets/data/cv.json')
     });
     skills.forEach((element) => {
         if (element.part == 'Environnement de travail') {
-            let newStarRating = starGrade(element.grade);
+            // let newStarRating = starGrade(element.grade);
             environmentSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-12 col-lg-4 ps-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-6 ps-5 nameElement">
-                        <p>${element.name}</p>
-                    </div>
-                    <div class="col-12 col-lg-6 ps-5">
-                        <div class="starRating">
-                            ${newStarRating}
+                    <div class="col-12 d-flex justify-content-center ps-5">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}">
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                        <p>${element.name}</p>
                     </div>
                 </div>
             </div>`;
