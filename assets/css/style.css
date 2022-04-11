@@ -6,9 +6,6 @@ body {
     text-align: center;
     background-color: #EDEBE8;
 }
-.row {
-    margin: 0;
-}
 .navbar, .footer, .btn {
     background-color: #E8E0D5;
 }
