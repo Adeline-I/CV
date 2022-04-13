@@ -186,6 +186,15 @@
             "alt":"logo WordPress"
         },
         {
+            "id":"ski014",
+            "part":"CMS",
+            "type":"Thème builder",
+            "name":"Divi",
+            "grade":"",
+            "image":"/assets/img/Divi.png",
+            "alt":"logo Divi"
+        },
+        {
             "id":"ski009",
             "part":"Front-End",
             "type":"Format de données",

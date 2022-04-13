@@ -163,7 +163,7 @@ fetch('./assets/data/cv.json')
         if (element.part == 'CMS') {
             // let newStarRating = starGrade(element.grade);
             cmsSkillsBody.innerHTML += `
-            <div class="col-12 ps-5" id="${element.id}">
+            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center ps-5">
                         <div class="iconsImg">

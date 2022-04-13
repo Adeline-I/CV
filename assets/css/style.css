@@ -76,6 +76,13 @@ main .card {
 /*Fin Animation*/
 
 /*Début Page Accueil*/
+.profilePicture {
+    border-radius: 0.5rem;
+    border: 0.4rem solid #9E8777;
+}
+.profileText {
+    text-align: justify;
+}
 .home .nameHome {
     font-family: 'Licorice', cursive;
     font-weight: bold;
