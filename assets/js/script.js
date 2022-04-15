@@ -103,12 +103,25 @@ fetch('./assets/data/cv.json')
     let cmsSkillsBody = document.getElementById('cmsSkillsBody');
     let webDesignSkillsBody = document.getElementById('webDesignSkillsBody');
     let environmentSkillsBody = document.getElementById('environmentSkillsBody');
+    let textAnim = document.getElementById('nameJob');
+
+    new Typewriter(textAnim, {
+        loop: true,
+        deleteSpeed: 100
+    })
+    .changeDelay(100)
+    .typeString('Développeuse Web -<br>')
+    .pauseFor(300)
+    .typeString('Web Mobile')
+    .pause(3000)
+    .deleteChars(28)
+    .start()
 
     education.forEach((element) => {
         educationCareerBody.innerHTML += `
-            <div class="col-12 ps-5" id="${element.id}">
+            <div class="col-12" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 col-lg-1 ps-5">
+                    <div class="col-12 col-lg-1">
                         <p class="dateElement">${element.date}</p>
                     </div>
                     <div class="col-12 col-lg-7 ps-5">
