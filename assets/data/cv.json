@@ -248,5 +248,31 @@
             "image":"https://img.icons8.com/color/96/000000/visual-studio-code-2019.png",
             "alt":"logo Visual Studio Code"
         }
-    ]
+    ],
+    "production": [
+        {
+            "id":"pro001",
+            "image":"/assets/img/shifumi.png",
+            "alt":"Image jeu Shi-Fu-Mi",
+            "title":"Shi-Fu-Mi",
+            "description":"Jeu créé de manière dynamique avec JavaScript.",
+            "link":"lien"
+        },
+        {
+            "id":"pro002",
+            "image":"/assets/img/shifumi.png",
+            "alt":"Image jeu Shi-Fu-Mi",
+            "title":"Shi-Fu-Mi",
+            "description":"Jeu créé de manière dynamique avec JavaScript.",
+            "link":"#"
+        },
+        {
+            "id":"pro003",
+            "image":"/assets/img/shifumi.png",
+            "alt":"Image jeu Shi-Fu-Mi",
+            "title":"Shi-Fu-Mi",
+            "description":"Jeu créé de manière dynamique avec JavaScript.",
+            "link":"#"
+        }
+        ]
 }

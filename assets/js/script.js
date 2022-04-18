@@ -1,72 +1,3 @@
-// function starGrade(grade) {
-//     let page;
-//     if (grade == '1') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '1.5') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-half"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '2') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '2.5') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-half"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '3') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '3.5') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-half"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '4') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '4.5') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-half"></i>
-//         <i class="starIcon bi-star"></i>`;
-//     } else if (grade == '5') {
-//         page = `
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>
-//         <i class="starIcon bi-star-fill"></i>`;
-//     };
-//     return page;
-// }
-
 fetch('./assets/data/cv.json')
 .then((response) => {
     return response.json();
@@ -97,12 +28,14 @@ fetch('./assets/data/cv.json')
     // let experience = datas.experience;
     let education = datas.education;
     let skills = datas.skills;
+    let production = datas.production;
     let educationCareerBody = document.getElementById('educationCareerBody');
     let frontEndSkillsBody = document.getElementById('frontEndSkillsBody');
     let backEndSkillsBody = document.getElementById('backEndSkillsBody');
     let cmsSkillsBody = document.getElementById('cmsSkillsBody');
     let webDesignSkillsBody = document.getElementById('webDesignSkillsBody');
     let environmentSkillsBody = document.getElementById('environmentSkillsBody');
+    let productionBody = document.getElementById('productionBody');
     let textAnim = document.getElementById('nameJob');
 
     new Typewriter(textAnim, {
@@ -117,37 +50,18 @@ fetch('./assets/data/cv.json')
     .deleteChars(28)
     .start()
 
-    education.forEach((element) => {
-        educationCareerBody.innerHTML += `
-            <div class="col-12" id="${element.id}">
-                <div class="row">
-                    <div class="col-12 col-lg-1">
-                        <p class="dateElement">${element.date}</p>
-                    </div>
-                    <div class="col-12 col-lg-7 ps-5">
-                        <p class="degreeElement">${element.degree}</p>
-                    </div>
-                    <div class="col-12 col-lg-2 ps-5">
-                        <p class="gradeElement">${element.grade}</p>
-                    </div>
-                    <div class="col-12 col-lg-2 ps-5">
-                        <p class="placeElement">${element.place}</p>
-                    </div>
-                </div>
-            </div>`;
-    });
     skills.forEach((element) => {
         if (element.part == 'Front-End') {
             // let newStarRating = starGrade(element.grade);
             frontEndSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-4 ps-5" id="${element.id}">
+            <div class="col-6 col-lg-4 ps-lg-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-5">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -158,14 +72,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Back-End') {
             // let newStarRating = starGrade(element.grade);
             backEndSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-6 ps-lg-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-5">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -176,14 +90,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'CMS') {
             // let newStarRating = starGrade(element.grade);
             cmsSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-6 ps-lg-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-5">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -194,14 +108,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Web design') {
             // let newStarRating = starGrade(element.grade);
             webDesignSkillsBody.innerHTML += `
-            <div class="col-12 ps-5" id="${element.id}">
+            <div class="col-12 ps-lg-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-5">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -212,15 +126,63 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Environnement de travail') {
             // let newStarRating = starGrade(element.grade);
             environmentSkillsBody.innerHTML += `
-            <div class="col-12 col-lg-6 ps-5" id="${element.id}">
+            <div class="col-6 ps-lg-5" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-5">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
                         <p>${element.name}</p>
+                    </div>
+                </div>
+            </div>`;
+        };
+    });
+    education.forEach((element) => {
+        educationCareerBody.innerHTML += `
+        <div class="col-12" id="${element.id}">
+            <div class="row">
+                <div class="col-12 col-lg-1">
+                    <hr>
+                    <p class="dateElement">${element.date}</p>
+                </div>
+                <div class="col-12 col-lg-7 ps-lg-5">
+                    <p class="degreeElement">${element.degree}</p>
+                </div>
+                <div class="col-12 col-lg-2 ps-lg-5">
+                    <p class="gradeElement">${element.grade}</p>
+                </div>
+                <div class="col-12 col-lg-2 ps-lg-5">
+                    <p class="placeElement">${element.place}</p>
+                </div>
+            </div>
+        </div>`;
+    });
+    production.forEach((element) => {
+        if (element.link != '#') {
+            productionBody.innerHTML += `
+            <div class="cardProduct">
+                <div class="card cardOneProduct" id="${element.id}">
+                    <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
+                    <div class="card-body">
+                        <h5 class="card-title">${element.title}<h5>
+                        <p class="card-text">${element.description}</p>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="${element.link}" class="btn btnOneProduct">Voir le site</a>
+                </div>
+            </div>`;
+        } else {
+            productionBody.innerHTML += `
+            <div class="cardProduct">
+                <div class="card cardOneProduct" id="${element.id}">
+                    <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
+                    <div class="card-body">
+                        <h5 class="card-title">${element.title}<h5>
+                        <p class="card-text">${element.description}</p>
                     </div>
                 </div>
             </div>`;

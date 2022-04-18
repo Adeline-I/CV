@@ -9,7 +9,7 @@ body {
 .navbar, .footer, .btn {
     background-color: #E8E0D5;
 }
-.card {
+.card { 
     border: none;
 }
 
@@ -27,20 +27,36 @@ header {
 }
 
 /*Début Barre de navigation*/
-header .navbar-light .navbar-nav .nav-link, header .offcanvas-title {
+.navbar-light .navbar-nav .nav-link, header .offcanvas-title {
     color: #7C5848;
     font-weight: bold;
 } 
-header .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     color: #9E8777;
 }
 .navbar-light .navbar-toggler {
     border-color: #7C5848;
 }
-
 /*Fin Barre de navigation*/
 
-/*Début Header*/
+/*Début Page Accueil*/
+#nameJob {
+    height: 6rem;
+}
+.profilePicture {
+    border-radius: 0.5rem;
+    border: 0.4rem solid #9E8777;
+}
+.profileText {
+    text-align: justify;
+}
+.home .nameHome {
+    font-family: 'Licorice', cursive;
+    font-weight: bold;
+}
+/*Fin Page Accueil*/
+
+/*Fin Header*/
 
 /*Début Main*/
 main .card {
@@ -52,6 +68,69 @@ main .card {
     font-weight: bold;
     color: #7C5848;
 }
+.nameElement, .degreeElement {
+    font-weight: bold;
+}
+
+/*Début Animation*/
+.revealLeft {
+    opacity: 0;
+    transform: translateX(-300px);
+}
+.revealRight {
+    opacity: 0;
+    transform: translateX(300px);
+}
+.revealVisible {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 2s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
+}
+/*Fin Animation*/
+
+/*Début Page Compétences*/
+.skillsBody {
+    text-align: start;
+}
+/*Fin Page Compétences*/
+
+/*Début Page Réalisations*/
+.cardProduct {
+    max-width: 15rem;
+    position: relative;
+}
+.cardOneProduct {
+    max-width: 15rem;
+}
+.card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: .5s ease-in;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+.btnOneProduct {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cardProduct:hover .overlay {
+    height: 100%;
+}
+/*Fin Page Réalisations*/
+
+/*Début Page Contact*/
 .linkedTitle {
     font-weight: bold;
     color: #0A66C2;
@@ -79,55 +158,17 @@ main .card {
     border: 0.1rem solid #0A66C2;
     border-radius: 1.5rem;
 }
-.nameElement, .degreeElement {
-    font-weight: bold;
-}
-.starIcon {
-    color: #7C5848;
-}
-
-/*Début Animation*/
-.revealLeft {
-    opacity: 0;
-    transform: translateX(-300px);
-}
-.revealRight {
-    opacity: 0;
-    transform: translateX(300px);
-}
-.revealVisible {
-    opacity: 1;
-    transform: translateX(0px);
-    transition: 2s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
-}
-/*Fin Animation*/
-
-/*Début Page Accueil*/
-#nameJob {
-    height: 10rem;
-}
-.profilePicture {
-    border-radius: 0.5rem;
-    border: 0.4rem solid #9E8777;
-}
-.profileText {
-    text-align: justify;
-}
-.home .nameHome {
-    font-family: 'Licorice', cursive;
-    font-weight: bold;
-}
-
-/*Fin Page Accueil*/
-
-/*Début Page Compétences*/
-.skillsBody {
-    text-align: start;
-}
-
-/*Fin Page Compétences*/
+/*Fin Page Contact*/
 
 /*Fin Main*/
+@media (min-width: 992px) {
+    hr {
+        display: none;
+    }
+    #nameJob {
+        height: 10rem;
+    }
+}
 
 @media (prefers-reduced-motion: reduce) {
     .revealLeft {
