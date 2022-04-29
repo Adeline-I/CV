@@ -99,6 +99,14 @@ main .card {
     max-width: 15rem;
     position: relative;
 }
+.cardProduct img {
+    height: 12rem;
+}
+.cardProduct .card-body .card-title {
+    height: 4rem;
+    text-decoration: underline #7C5848;
+    font-weight: bold;
+}
 .cardOneProduct {
     max-width: 15rem;
 }

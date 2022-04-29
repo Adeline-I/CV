@@ -254,24 +254,24 @@
             "id":"pro001",
             "image":"/assets/img/shifumi.png",
             "alt":"Image jeu Shi-Fu-Mi",
-            "title":"Shi-Fu-Mi",
+            "title":"Shi-Fu-Mi zen",
             "description":"Jeu créé de manière dynamique avec JavaScript.",
-            "link":"lien"
+            "link":"https://adeline-i.github.io/Shi_Fu_Mi/"
         },
         {
             "id":"pro002",
-            "image":"/assets/img/shifumi.png",
-            "alt":"Image jeu Shi-Fu-Mi",
-            "title":"Shi-Fu-Mi",
-            "description":"Jeu créé de manière dynamique avec JavaScript.",
+            "image":"/assets/img/calendrier.png",
+            "alt":"Image d'un calendrier",
+            "title":"Calendrier mensuel",
+            "description":"Calendrier créé de manière dynamique avec PHP.",
             "link":"#"
         },
         {
             "id":"pro003",
-            "image":"/assets/img/shifumi.png",
-            "alt":"Image jeu Shi-Fu-Mi",
-            "title":"Shi-Fu-Mi",
-            "description":"Jeu créé de manière dynamique avec JavaScript.",
+            "image":"/assets/img/formulaire.png",
+            "alt":"Image d'un formulaire",
+            "title":"Formulaire d'inscription",
+            "description":"Formulaire créé de manière dynamique avec PHP.",
             "link":"#"
         }
         ]

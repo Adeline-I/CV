@@ -163,7 +163,7 @@ fetch('./assets/data/cv.json')
     production.forEach((element) => {
         if (element.link != '#') {
             productionBody.innerHTML += `
-            <div class="cardProduct">
+            <div class="cardProduct mb-3">
                 <div class="card cardOneProduct" id="${element.id}">
                     <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
                     <div class="card-body">
@@ -172,12 +172,12 @@ fetch('./assets/data/cv.json')
                     </div>
                 </div>
                 <div class="overlay">
-                    <a href="${element.link}" class="btn btnOneProduct">Voir le site</a>
+                    <a href="${element.link}" class="btn btnOneProduct" target="_blank">Voir le site</a>
                 </div>
             </div>`;
         } else {
             productionBody.innerHTML += `
-            <div class="cardProduct">
+            <div class="cardProduct mb-3">
                 <div class="card cardOneProduct" id="${element.id}">
                     <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
                     <div class="card-body">
