@@ -108,7 +108,7 @@
             "date":"2013",
             "degree":"DIPLÔME DE COMPTABILITÉ ET DE GESTION",
             "grade":"Bac+3, niveau comptable",
-            "place":" Lycée Edouard Gand, Amiens"
+            "place":"Lycée Edouard Gand, Amiens"
         }
 
     ],
@@ -155,7 +155,7 @@
             "type":"Outil de design d'UI/UX / prototypage",
             "name":"Adobe Xd",
             "grade":"",
-            "image":"/assets/img/Adobe_Xd.png",
+            "image":"assets/img/Adobe_Xd.png",
             "alt":"logo Adobe Xd"
         },
         {
@@ -191,7 +191,7 @@
             "type":"Thème builder",
             "name":"Divi",
             "grade":"",
-            "image":"/assets/img/Divi.png",
+            "image":"assets/img/Divi.png",
             "alt":"logo Divi"
         },
         {
@@ -209,7 +209,7 @@
             "type":"Techniques de référencement naturel",
             "name":"SEO",
             "grade":"1",
-            "image":"/assets/img/SEO.png",
+            "image":"assets/img/SEO.png",
             "alt":"logo SEO"
         },
         {
@@ -236,7 +236,7 @@
             "type":"Environnement de développement local",
             "name":"Laragon",
             "grade":"",
-            "image":"/assets/img/laragon.png",
+            "image":"assets/img/laragon.png",
             "alt":"logo Laragon"
         },
         {
@@ -252,7 +252,7 @@
     "production": [
         {
             "id":"pro001",
-            "image":"/assets/img/shifumi.png",
+            "image":"assets/img/shifumi.png",
             "alt":"Image jeu Shi-Fu-Mi",
             "title":"Shi-Fu-Mi zen",
             "description":"Jeu créé de manière dynamique avec JavaScript.",
@@ -260,7 +260,7 @@
         },
         {
             "id":"pro002",
-            "image":"/assets/img/calendrier.png",
+            "image":"assets/img/calendrier.png",
             "alt":"Image d'un calendrier",
             "title":"Calendrier mensuel",
             "description":"Calendrier créé de manière dynamique avec PHP.",
@@ -268,7 +268,7 @@
         },
         {
             "id":"pro003",
-            "image":"/assets/img/formulaire.png",
+            "image":"assets/img/formulaire.png",
             "alt":"Image d'un formulaire",
             "title":"Formulaire d'inscription",
             "description":"Formulaire créé de manière dynamique avec PHP.",
