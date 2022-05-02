@@ -5,6 +5,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     background-color: #EDEBE8;
+    overflow-x: hidden;
 }
 .navbar, .footer, .btn {
     background-color: #E8E0D5;

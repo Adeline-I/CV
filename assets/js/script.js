@@ -54,14 +54,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Front-End') {
             // let newStarRating = starGrade(element.grade);
             frontEndSkillsBody.innerHTML += `
-            <div class="col-6 col-lg-4 ps-lg-5" id="${element.id}">
+            <div class="col-6 col-lg-4" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-lg-5">
+                    <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -72,14 +72,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Back-End') {
             // let newStarRating = starGrade(element.grade);
             backEndSkillsBody.innerHTML += `
-            <div class="col-6 ps-lg-5" id="${element.id}">
+            <div class="col-6" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-lg-5">
+                    <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -90,14 +90,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'CMS') {
             // let newStarRating = starGrade(element.grade);
             cmsSkillsBody.innerHTML += `
-            <div class="col-6 ps-lg-5" id="${element.id}">
+            <div class="col-6" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-lg-5">
+                    <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -108,14 +108,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Web design') {
             // let newStarRating = starGrade(element.grade);
             webDesignSkillsBody.innerHTML += `
-            <div class="col-12 ps-lg-5" id="${element.id}">
+            <div class="col-12" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-lg-5">
+                    <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -126,14 +126,14 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Environnement de travail') {
             // let newStarRating = starGrade(element.grade);
             environmentSkillsBody.innerHTML += `
-            <div class="col-6 ps-lg-5" id="${element.id}">
+            <div class="col-6" id="${element.id}">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center ps-lg-5">
+                    <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
                             <img class="img-fluid" src="${element.image}" alt="${element.alt}">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center ps-lg-5 nameElement">
+                    <div class="col-12 d-flex justify-content-center nameElement">
                         <p>${element.name}</p>
                     </div>
                 </div>
@@ -148,13 +148,13 @@ fetch('./assets/data/cv.json')
                     <hr>
                     <p class="dateElement">${element.date}</p>
                 </div>
-                <div class="col-12 col-lg-7 ps-lg-5">
+                <div class="col-12 col-lg-7">
                     <p class="degreeElement">${element.degree}</p>
                 </div>
-                <div class="col-12 col-lg-2 ps-lg-5">
+                <div class="col-12 col-lg-2">
                     <p class="gradeElement">${element.grade}</p>
                 </div>
-                <div class="col-12 col-lg-2 ps-lg-5">
+                <div class="col-12 col-lg-2">
                     <p class="placeElement">${element.place}</p>
                 </div>
             </div>
