@@ -5,7 +5,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     background-color: #EDEBE8;
-    overflow-x: hidden;
+    overflow-x: hidden; /*retire la scroll bar horizontale*/
 }
 .navbar, .footer, .btn {
     background-color: #E8E0D5;
@@ -63,7 +63,6 @@ header {
 main .card {
     border-radius: 0.5rem;
     box-shadow: 2px 2px 2px 2px rgba(158, 135, 119, 0.5);
-    z-index: 1;
 }
 .partTitle, .partUnderTitle, .dateElement {
     font-weight: bold;
