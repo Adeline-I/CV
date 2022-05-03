@@ -13,77 +13,67 @@
 </head>
 
 <body>
-    <!--Début Header-->
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col bgShadow">
-                <!--Début Barre de navigation-->
-                <nav class="navbar navbar-light navbar-expand-lg fixed-top" aria-label="Main navigation">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-label="Toggle navigation" aria-controls="navbarOffcanvasLg">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="of mb-0fcanvasNavbarLabel">Menu</h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                                    <li class="nav-item">
-                                        <a class="nav-link pe-5" aria-current="page" href="#home">
-                                            <i class="bi bi-house-door-fill" role="img" aria-label="Accueil"></i>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link pe-5" href="#aboutMe">
-                                            À Propos
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link pe-5" href="#skills">
-                                            Compétences
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link pe-5" href="#career">
-                                            Parcours
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link pe-5" href="#production">Réalisations</a>
-                                    </li>
-                                    <li class="nav-item pe-5">
-                                        <a class="nav-link" href="#contact">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <!--Fin Barre de navigation-->
-                <!--Début Page Accueil-->
-                <section class="container-fluid home" id="home">
-                    <div class="row">
-                        <div class="col mt-5 my-lg-5">
-                            <div class="card my-lg-5 py-lg-5">
-                                <div class="card-body">
-                                    <h1 class="nameHome display-1 py-lg-5">
-                                        Adeline Izri
-                                    </h1>
-                                    <h2 class="display-5 pb-lg-5" id="nameJob">
-                                    </h2>
-                                    <p class="h4 pb-lg-5">
-                                        Je suis à la recherche d'un stage d'une durée de 6 jours ouvrés à partir du 30 mai 2022.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--Fin Page Accueil-->
-            </div>
+    <!--Début Barre de navigation-->
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" aria-label="Main navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav justify-content-evenly flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
+                        <i class="bi bi-house-door-fill" role="img" aria-label="Accueil"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">
+                        À Propos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">
+                        Compétences
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#career">
+                        Parcours
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#production">Réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <!--Fin Barre de navigation-->
+    <!--Début Header-->
+    <header>
+        <div class="bgShadow">
+            <!--Début Page Accueil-->
+            <section class="container-fluid home" id="home">
+                <div class="row">
+                    <div class="col mt-5 my-lg-5">
+                        <div class="card my-lg-5 py-lg-5">
+                            <div class="card-body">
+                                <h1 class="nameHome display-1 py-lg-5">
+                                    Adeline Izri
+                                </h1>
+                                <h2 class="display-5 pb-lg-5" id="nameJob">
+                                </h2>
+                                <p class="h4 pb-lg-5">
+                                    Je suis à la recherche d'un stage d'une durée de 6 jours ouvrés à partir du 30 mai 2022.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin Page Accueil-->
+    </div>
     </header>
     <!--Fin Header-->
     <!--Début Main-->
@@ -102,11 +92,11 @@
                                     <div class="col-12">
                                         <img class="img-fluid profilePicture" src="assets/img/profile_picture1.jpg" alt="Photo de profil">
                                     </div>
-                                    <div class="col-12 mt-3 mx-5 ps-4 ps-lg-0 text-start">
-                                        <p class="mx-lg-3">
+                                    <div class="col-12 mt-3 ps-4 ps-lg-0 text-start">
+                                        <p>
                                             <strong>Prénom et nom :</strong> Adeline IZRI
                                         </p>
-                                        <p class="mx-lg-3">
+                                        <p>
                                             <strong>Âge :</strong> 30 ans
                                         </p>
                                     </div>

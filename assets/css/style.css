@@ -7,7 +7,7 @@ body {
     background-color: #EDEBE8;
     overflow-x: hidden; /*retire la scroll bar horizontale*/
 }
-.navbar, .footer, .btn {
+.footer, .btn {
     background-color: #E8E0D5;
 }
 .card { 
@@ -28,6 +28,9 @@ header {
 }
 
 /*Début Barre de navigation*/
+.navbar {
+    background-color: rgba(232,224,213,0.7);
+}
 .navbar-light .navbar-nav .nav-link, header .offcanvas-title {
     color: #7C5848;
     font-weight: bold;
