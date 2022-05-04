@@ -77,17 +77,15 @@ main .card {
 
 /*Début Animation*/
 .revealLeft {
-    opacity: 0;
-    transform: translateX(-300px);
+    opacity: 1!important;
+    transform: translateX(0px)!important;
 }
 .revealRight {
-    opacity: 0;
-    transform: translateX(300px);
+    opacity: 1!important;
+    transform: translateX(0px)!important;
 }
 .revealVisible {
-    opacity: 1;
-    transform: translateX(0px);
-    transition: 2s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
+    transition: 0s!important;
 }
 /*Fin Animation*/
 
@@ -178,6 +176,19 @@ main .card {
     }
     #nameJob {
         height: 10rem;
+    }
+    .revealLeft {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    .revealRight {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    .revealVisible {
+        opacity: 1;
+        transform: translateX(0px);
+        transition: 2s cubic-bezier(.5, 0, 0, 1); /*cubic-bezier : effet accélération décélération*/
     }
 }
 
