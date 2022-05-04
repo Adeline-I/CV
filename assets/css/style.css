@@ -7,6 +7,9 @@ body {
     background-color: #EDEBE8;
     overflow-x: hidden; /*retire la scroll bar horizontale*/
 }
+body>.wrapper {
+    overflow-x: hidden;
+}
 .footer, .btn {
     background-color: #E8E0D5;
 }
