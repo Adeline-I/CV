@@ -85,26 +85,33 @@
         {
             "id":"edu001",
             "date":"2022",
+            "degree":"POEC DÉVELOPPEUR APPLICATION MOBILE",
+            "grade":"",
+            "place":"La Manu, Amiens"
+        },
+        {
+            "id":"edu002",
+            "date":"2022",
             "degree":"FORMATION DÉVELOPPEUR WEB ET WEB MOBILE",
             "grade":"Bac+2",
             "place":"La Manu, Amiens"
         },
         {
-            "id":"edu002",
+            "id":"edu003",
             "date":"2016",
             "degree":"LICENCE PROFESSIONNELLE ENTREPRENARIAT ET MANAGEMENT DES PME PMI",
             "grade":"Bac+3",
             "place":"IUT, Amiens"
         },
         {
-            "id":"edu003",
+            "id":"edu004",
             "date":"2015",
             "degree":"DUT TECHNIQUES DE COMMERCIALISATION",
             "grade":"Bac+2",
             "place":"IUT, Amiens"
         },
         {
-            "id":"edu001",
+            "id":"edu005",
             "date":"2013",
             "degree":"DIPLÔME DE COMPTABILITÉ ET DE GESTION",
             "grade":"Bac+3, niveau comptable",
@@ -118,7 +125,7 @@
             "part":"Front-End",
             "type":"Langage",
             "name":"HTML5",
-            "grade":"2.5",
+            "grade":"",
             "image":"https://img.icons8.com/color/96/000000/html-5--v1.png",
             "alt":"logo HTML 5"
         },
@@ -127,7 +134,7 @@
             "part":"Front-End",
             "type":"Langage",
             "name":"CSS3",
-            "grade":"2",
+            "grade":"",
             "image":"https://img.icons8.com/color/96/000000/css3.png",
             "alt":"logo CSS 3"
         },
@@ -136,7 +143,7 @@
             "part":"Front-End",
             "type":"Langage",
             "name":"JavaScript",
-            "grade":"1.5",
+            "grade":"",
             "image":"https://img.icons8.com/color/96/000000/javascript--v1.png",
             "alt":"logo JavaScript"
         },
@@ -145,9 +152,18 @@
             "part":"Front-End",
             "type":"Framework",
             "name":"Bootstrap",
-            "grade":"3",
+            "grade":"",
             "image":"https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-bootstrap-a-free-and-open-source-css-framework-logo-color-tal-revivo.png",
             "alt":"logo Bootstrap"
+        },
+        {
+            "id":"ski016",
+            "part":"Web design",
+            "type":"Outil de design d'UI/UX / prototypage",
+            "name":"Figma",
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/undefined/figma--v1.png",
+            "alt":"logo Figma"
         },
         {
             "id":"ski005",
@@ -197,18 +213,18 @@
         {
             "id":"ski009",
             "part":"Front-End",
-            "type":"Format de données",
-            "name":"JSON",
-            "grade":"2",
-            "image":"https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-json-javascript-object-notation-is-a-lightweight-data-interchange-format-logo-color-tal-revivo.png",
-            "alt":"logo JSON"
+            "type":"Framework d'applications mobiles",
+            "name":"React Native",
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/undefined/react-native.png",
+            "alt":"logo React Native"
         },
         {
             "id":"ski010",
             "part":"Front-End",
             "type":"Techniques de référencement naturel",
             "name":"SEO",
-            "grade":"1",
+            "grade":"",
             "image":"assets/img/SEO.png",
             "alt":"logo SEO"
         },
