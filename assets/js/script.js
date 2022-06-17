@@ -108,7 +108,7 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Web design') {
             // let newStarRating = starGrade(element.grade);
             webDesignSkillsBody.innerHTML += `
-            <div class="col-12" id="${element.id}">
+            <div class="col-6" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
