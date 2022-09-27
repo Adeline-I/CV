@@ -220,15 +220,6 @@
             "alt":"logo React Native"
         },
         {
-            "id":"ski010",
-            "part":"Front-End",
-            "type":"Techniques de référencement naturel",
-            "name":"SEO",
-            "grade":"",
-            "image":"assets/img/SEO.png",
-            "alt":"logo SEO"
-        },
-        {
             "id":"ski011",
             "part":"Environnement de travail",
             "type":"Outil de versioning",
