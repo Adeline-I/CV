@@ -157,7 +157,7 @@
             "alt":"logo Bootstrap"
         },
         {
-            "id":"ski016",
+            "id":"ski005",
             "part":"Web design",
             "type":"Outil de design d'UI/UX / prototypage",
             "name":"Figma",
@@ -166,7 +166,7 @@
             "alt":"logo Figma"
         },
         {
-            "id":"ski005",
+            "id":"ski006",
             "part":"Web design",
             "type":"Outil de design d'UI/UX / prototypage",
             "name":"Adobe Xd",
@@ -175,7 +175,7 @@
             "alt":"logo Adobe Xd"
         },
         {
-            "id":"ski006",
+            "id":"ski007",
             "part":"Back-End",
             "type":"Langage",
             "name":"PHP7",
@@ -184,7 +184,7 @@
             "alt":"logo PHP 7"
         },
         {
-            "id":"ski007",
+            "id":"ski008",
             "part":"Back-End",
             "type":"Base de données",
             "name":"MySQL",
@@ -193,7 +193,7 @@
             "alt":"logo MySQL"
         },
         {
-            "id":"ski008",
+            "id":"ski009",
             "part":"CMS",
             "type":"CMS",
             "name":"WordPress",
@@ -202,7 +202,7 @@
             "alt":"logo WordPress"
         },
         {
-            "id":"ski014",
+            "id":"ski010",
             "part":"CMS",
             "type":"Thème builder",
             "name":"Divi",
@@ -211,7 +211,7 @@
             "alt":"logo Divi"
         },
         {
-            "id":"ski009",
+            "id":"ski011",
             "part":"Front-End",
             "type":"Framework d'applications mobiles",
             "name":"React Native",
@@ -220,7 +220,7 @@
             "alt":"logo React Native"
         },
         {
-            "id":"ski011",
+            "id":"ski012",
             "part":"Environnement de travail",
             "type":"Outil de versioning",
             "name":"Git",
@@ -229,7 +229,7 @@
             "alt":"logo Git"
         },
         {
-            "id":"ski012",
+            "id":"ski013",
             "part":"Environnement de travail",
             "type":"Hébergeur de code",
             "name":"GitHub",
@@ -238,7 +238,7 @@
             "alt":"logo GitHub"
         },
         {
-            "id":"ski013",
+            "id":"ski014",
             "part":"Environnement de travail",
             "type":"Environnement de développement local",
             "name":"Laragon",
