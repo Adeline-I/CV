@@ -30,11 +30,13 @@ fetch('./assets/data/cv.json')
     let skills = datas.skills;
     let production = datas.production;
     let educationCareerBody = document.getElementById('educationCareerBody');
-    let frontEndSkillsBody = document.getElementById('frontEndSkillsBody');
-    let backEndSkillsBody = document.getElementById('backEndSkillsBody');
+    let languagesSkillsBody = document.getElementById('languagesSkillsBody');
+    let dataBaseSkillsBody = document.getElementById('dataBaseSkillsBody');
+    let frameworkSkillsBody = document.getElementById('frameworkSkillsBody');
     let cmsSkillsBody = document.getElementById('cmsSkillsBody');
     let webDesignSkillsBody = document.getElementById('webDesignSkillsBody');
-    let environmentSkillsBody = document.getElementById('environmentSkillsBody');
+    let toolsSkillsBody = document.getElementById('toolsSkillsBody');
+    let projectManagementSkillsBody = document.getElementById('projectManagementSkillsBody');
     let productionBody = document.getElementById('productionBody');
     let textAnim = document.getElementById('nameJob');
 
@@ -51,10 +53,10 @@ fetch('./assets/data/cv.json')
     .start()
 
     skills.forEach((element) => {
-        if (element.part == 'Front-End') {
+        if (element.part == 'Langages') {
             // let newStarRating = starGrade(element.grade);
-            frontEndSkillsBody.innerHTML += `
-            <div class="col-6 col-lg-4" id="${element.id}">
+            languagesSkillsBody.innerHTML += `
+            <div class="col-6" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
@@ -69,9 +71,27 @@ fetch('./assets/data/cv.json')
         };
     });
     skills.forEach((element) => {
-        if (element.part == 'Back-End') {
+        if (element.part == 'Base de données') {
             // let newStarRating = starGrade(element.grade);
-            backEndSkillsBody.innerHTML += `
+            dataBaseSkillsBody.innerHTML += `
+            <div class="col-6" id="${element.id}">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}" alt="${element.alt}">
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center nameElement">
+                        <p>${element.name}</p>
+                    </div>
+                </div>
+            </div>`;
+        };
+    });
+    skills.forEach((element) => {
+        if (element.part == 'Framework') {
+            // let newStarRating = starGrade(element.grade);
+            frameworkSkillsBody.innerHTML += `
             <div class="col-6" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
@@ -90,7 +110,7 @@ fetch('./assets/data/cv.json')
         if (element.part == 'CMS') {
             // let newStarRating = starGrade(element.grade);
             cmsSkillsBody.innerHTML += `
-            <div class="col-6" id="${element.id}">
+            <div class="col-6 col-lg-4" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
@@ -123,9 +143,27 @@ fetch('./assets/data/cv.json')
         };
     });
     skills.forEach((element) => {
-        if (element.part == 'Environnement de travail') {
+        if (element.part == 'Outils de développement') {
             // let newStarRating = starGrade(element.grade);
-            environmentSkillsBody.innerHTML += `
+            toolsSkillsBody.innerHTML += `
+            <div class="col-6 col-lg-4" id="${element.id}">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="iconsImg">
+                            <img class="img-fluid" src="${element.image}" alt="${element.alt}">
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center nameElement">
+                        <p>${element.name}</p>
+                    </div>
+                </div>
+            </div>`;
+        };
+    });
+    skills.forEach((element) => {
+        if (element.part == 'Gestion de projet') {
+            // let newStarRating = starGrade(element.grade);
+            projectManagementSkillsBody.innerHTML += `
             <div class="col-6" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
