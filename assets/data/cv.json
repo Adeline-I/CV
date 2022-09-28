@@ -85,8 +85,8 @@
         {
             "id":"edu001",
             "date":"2022",
-            "degree":"POEC DÉVELOPPEUR APPLICATION MOBILE",
-            "grade":"",
+            "degree":"FORMATION DÉVELOPPEUR APPLICATION MOBILE",
+            "grade":"POEC",
             "place":"La Manu, Amiens"
         },
         {
@@ -122,7 +122,7 @@
     "skills": [
         {
             "id":"ski001",
-            "part":"Front-End",
+            "part":"Langages",
             "type":"Langage",
             "name":"HTML5",
             "grade":"",
@@ -131,7 +131,7 @@
         },
         {
             "id":"ski002",
-            "part":"Front-End",
+            "part":"Langages",
             "type":"Langage",
             "name":"CSS3",
             "grade":"",
@@ -140,7 +140,7 @@
         },
         {
             "id":"ski003",
-            "part":"Front-End",
+            "part":"Langages",
             "type":"Langage",
             "name":"JavaScript",
             "grade":"",
@@ -149,7 +149,7 @@
         },
         {
             "id":"ski004",
-            "part":"Front-End",
+            "part":"Framework",
             "type":"Framework",
             "name":"Bootstrap",
             "grade":"",
@@ -176,7 +176,7 @@
         },
         {
             "id":"ski007",
-            "part":"Back-End",
+            "part":"Langages",
             "type":"Langage",
             "name":"PHP7",
             "grade":"",
@@ -185,7 +185,7 @@
         },
         {
             "id":"ski008",
-            "part":"Back-End",
+            "part":"Base de données",
             "type":"Base de données",
             "name":"MySQL",
             "grade":"",
@@ -212,8 +212,8 @@
         },
         {
             "id":"ski011",
-            "part":"Front-End",
-            "type":"Framework d'applications mobiles",
+            "part":"Framework",
+            "type":"Framework",
             "name":"React Native",
             "grade":"",
             "image":"https://img.icons8.com/color/96/undefined/react-native.png",
@@ -221,7 +221,7 @@
         },
         {
             "id":"ski012",
-            "part":"Environnement de travail",
+            "part":"Outils de développement",
             "type":"Outil de versioning",
             "name":"Git",
             "grade":"",
@@ -230,7 +230,7 @@
         },
         {
             "id":"ski013",
-            "part":"Environnement de travail",
+            "part":"Outils de développement",
             "type":"Hébergeur de code",
             "name":"GitHub",
             "grade":"",
@@ -239,7 +239,7 @@
         },
         {
             "id":"ski014",
-            "part":"Environnement de travail",
+            "part":"Outils de développement",
             "type":"Environnement de développement local",
             "name":"Laragon",
             "grade":"",
@@ -248,12 +248,57 @@
         },
         {
             "id":"ski015",
-            "part":"Environnement de travail",
+            "part":"Outils de développement",
             "type":"IDE",
             "name":"Visual Studio Code",
             "grade":"",
             "image":"https://img.icons8.com/color/96/000000/visual-studio-code-2019.png",
             "alt":"logo Visual Studio Code"
+        },
+        {
+            "id":"ski016",
+            "part":"Outils de développement",
+            "type":"",
+            "name":"Firebase",
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/000000/firebase.png",
+            "alt":"logo Firebase"
+        },
+        {
+            "id":"ski017",
+            "part":"CMS",
+            "type":"Extension WordPress",
+            "name":"WooCommerce",
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/000000/woocommerce.png",
+            "alt":"logo WooCommerce"
+        },
+        {
+            "id":"ski018",
+            "part":"Base de données",
+            "type":"",
+            "name":"JMerise",
+            "grade":"",
+            "image":"assets/img/jmerise.png",
+            "alt":"logo JMerise"
+        },
+        {
+            "id":"ski019",
+            "part":"Gestion de projet",
+            "type":"",
+            "name":"Trello",
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/000000/trello.png",
+            "alt":"logo Trello"
+        },
+        {
+            "id":"ski019",
+            "part":"Gestion de projet",
+            "type":"",
+            "name":"Agile - SCRUM",
+            "grade":"",
+            "image":"assets/img/scrum.png",
+            "alt":"logo Agile - SCRUM"
         }
     ],
     "production": [
