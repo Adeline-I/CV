@@ -124,7 +124,7 @@
             "id":"ski001",
             "part":"Langages",
             "type":"Langage",
-            "name":"HTML5",
+            "name":"HTML 5",
             "grade":"",
             "image":"https://img.icons8.com/color/96/000000/html-5--v1.png",
             "alt":"logo HTML 5"
@@ -133,7 +133,7 @@
             "id":"ski002",
             "part":"Langages",
             "type":"Langage",
-            "name":"CSS3",
+            "name":"CSS 3",
             "grade":"",
             "image":"https://img.icons8.com/color/96/000000/css3.png",
             "alt":"logo CSS 3"
@@ -178,7 +178,7 @@
             "id":"ski007",
             "part":"Langages",
             "type":"Langage",
-            "name":"PHP7",
+            "name":"PHP 7",
             "grade":"",
             "image":"https://img.icons8.com/officel/96/000000/php-logo.png",
             "alt":"logo PHP 7"
@@ -292,13 +292,22 @@
             "alt":"logo Trello"
         },
         {
-            "id":"ski019",
+            "id":"ski020",
             "part":"Gestion de projet",
             "type":"",
             "name":"Agile - SCRUM",
             "grade":"",
             "image":"assets/img/scrum.png",
             "alt":"logo Agile - SCRUM"
+        },
+        {
+            "id":"ski021",
+            "part":"Framework",
+            "type":"Framework",
+            "name":"Symfony 5",
+            "grade":"",
+            "image":"https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-symfony-is-a-php-web-application-framework-logo-bold-tal-revivo.png",
+            "alt":"logo Symfony"
         }
     ],
     "production": [

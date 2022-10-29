@@ -92,7 +92,7 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Framework') {
             // let newStarRating = starGrade(element.grade);
             frameworkSkillsBody.innerHTML += `
-            <div class="col-6" id="${element.id}">
+            <div class="col-6 col-lg-4" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
