@@ -308,6 +308,15 @@
             "grade":"",
             "image":"https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-symfony-is-a-php-web-application-framework-logo-bold-tal-revivo.png",
             "alt":"logo Symfony"
+        },
+        {
+            "id":"ski022",
+            "part":"Framework",
+            "type":"Framework",
+            "name":"Angular",
+            "grade":"",
+            "image":"https://img.icons8.com/color/96/null/angularjs.png",
+            "alt":"logo Angular"
         }
     ],
     "production": [
@@ -325,7 +334,7 @@
             "alt":"Image d'un calendrier",
             "title":"Calendrier mensuel",
             "description":"Calendrier créé de manière dynamique avec PHP.",
-            "link":"#"
+            "link":"https://github.com/Adeline-I/Calendar"
         },
         {
             "id":"pro003",
@@ -333,6 +342,30 @@
             "alt":"Image d'un formulaire",
             "title":"Formulaire d'inscription",
             "description":"Formulaire créé de manière dynamique avec PHP.",
+            "link":"https://github.com/Adeline-I/Formulaire"
+        },
+        {
+            "id":"pro004",
+            "image":"https://img.icons8.com/bubbles/100/null/camera.png",
+            "alt":"Image en attente",
+            "title":"Clone de Pinterest",
+            "description":"Clone du site Pinterest créé de manière dynamique avec Symfony.",
+            "link":"https://github.com/Adeline-I/pinterest-clone"
+        },
+        {
+            "id":"pro005",
+            "image":"https://img.icons8.com/bubbles/100/null/camera.png",
+            "alt":"Image en attente",
+            "title":"Pokédex",
+            "description":"Liste de Pokémons créée de manière dynamique avec Angular.",
+            "link":"https://adeline-i.github.io/ng-pokemon-app/login"
+        },
+        {
+            "id":"pro006",
+            "image":"https://img.icons8.com/bubbles/100/null/camera.png",
+            "alt":"Image en attente",
+            "title":"Nouveau CV (en cours de création)",
+            "description":"CV créé de manière dynamique avec Angular.",
             "link":"#"
         }
         ]

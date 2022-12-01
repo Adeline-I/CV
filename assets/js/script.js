@@ -92,7 +92,7 @@ fetch('./assets/data/cv.json')
         if (element.part == 'Framework') {
             // let newStarRating = starGrade(element.grade);
             frameworkSkillsBody.innerHTML += `
-            <div class="col-6 col-lg-4" id="${element.id}">
+            <div class="col-6" id="${element.id}">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
                         <div class="iconsImg">
@@ -201,26 +201,30 @@ fetch('./assets/data/cv.json')
     production.forEach((element) => {
         if (element.link != '#') {
             productionBody.innerHTML += `
-            <div class="cardProduct mb-3">
-                <div class="card cardOneProduct" id="${element.id}">
-                    <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
-                    <div class="card-body">
-                        <h5 class="card-title">${element.title}<h5>
-                        <p class="card-text">${element.description}</p>
+            <div class="col-12 col-md-6 col-lg-4 colCard">
+                <div class="cardProduct mb-3">
+                    <div class="card cardOneProduct" id="${element.id}">
+                        <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
+                        <div class="card-body">
+                            <h5 class="card-title">${element.title}<h5>
+                            <p class="card-text">${element.description}</p>
+                        </div>
                     </div>
-                </div>
-                <div class="overlay">
-                    <a href="${element.link}" class="btn btnOneProduct" target="_blank">Voir le site</a>
+                    <div class="overlay">
+                        <a href="${element.link}" class="btn btnOneProduct" target="_blank">Voir le site</a>
+                    </div>
                 </div>
             </div>`;
         } else {
             productionBody.innerHTML += `
-            <div class="cardProduct mb-3">
-                <div class="card cardOneProduct" id="${element.id}">
-                    <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
-                    <div class="card-body">
-                        <h5 class="card-title">${element.title}<h5>
-                        <p class="card-text">${element.description}</p>
+            <div class="col-12 col-md-6 col-lg-4 colCard">
+                <div class="cardProduct mb-3">
+                    <div class="card cardOneProduct" id="${element.id}">
+                        <img src="${element.image}" class="card-img-top img-fluid" alt="${element.alt}">
+                        <div class="card-body">
+                            <h5 class="card-title">${element.title}<h5>
+                            <p class="card-text">${element.description}</p>
+                        </div>
                     </div>
                 </div>
             </div>`;
