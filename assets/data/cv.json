@@ -317,6 +317,15 @@
             "grade":"",
             "image":"https://img.icons8.com/color/96/null/angularjs.png",
             "alt":"logo Angular"
+        },
+        {
+            "id":"ski023",
+            "part":"Gestion de projet",
+            "type":"",
+            "name":"Azure DevOps",
+            "grade":"",
+            "image":"https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/null/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo.png",
+            "alt":"logo Azure DevOps"
         }
     ],
     "production": [
@@ -346,16 +355,16 @@
         },
         {
             "id":"pro004",
-            "image":"https://img.icons8.com/bubbles/100/null/camera.png",
-            "alt":"Image en attente",
+            "image":"assets/img/panterest.png",
+            "alt":"Image clone de Pinterest",
             "title":"Clone de Pinterest",
             "description":"Clone du site Pinterest créé de manière dynamique avec Symfony.",
             "link":"https://github.com/Adeline-I/pinterest-clone"
         },
         {
             "id":"pro005",
-            "image":"https://img.icons8.com/bubbles/100/null/camera.png",
-            "alt":"Image en attente",
+            "image":"assets/img/pokedex.png",
+            "alt":"Image du Pokédex",
             "title":"Pokédex",
             "description":"Liste de Pokémons créée de manière dynamique avec Angular.",
             "link":"https://adeline-i.github.io/ng-pokemon-app/login"
